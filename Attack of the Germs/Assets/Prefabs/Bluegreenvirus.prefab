@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 332617029392360281}
   - component: {fileID: -7096232479921570498}
   - component: {fileID: 9088189692690261148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bluegreenvirus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
