@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 332617029392360280}
   - component: {fileID: 332617029392360283}
   - component: {fileID: 332617029392360281}
+  - component: {fileID: -7096232479921570498}
+  - component: {fileID: 9088189692690261148}
   m_Layer: 0
   m_Name: Bluegreenvirus
   m_TagString: Untagged
@@ -96,3 +98,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfig: {fileID: 11400000, guid: d0b9e1c8c72c6f54d968aa1a6a654525, type: 2}
+--- !u!114 &-7096232479921570498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332617029392360282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe1235791e0e074baafaa47d5072ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!61 &9088189692690261148
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332617029392360282}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.36369485}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.98, y: 4.6}
+    newSize: {x: 2.98, y: 4.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.98, y: 2.355928}
+  m_EdgeRadius: 0
