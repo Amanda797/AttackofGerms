@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 332617029392360283}
   - component: {fileID: 332617029392360281}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Bluegreenvirus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,4 +96,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfig: {fileID: 11400000, guid: d0b9e1c8c72c6f54d968aa1a6a654525, type: 2}
-  moveSpeed: 2
