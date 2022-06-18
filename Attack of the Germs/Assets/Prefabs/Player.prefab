@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1907674458771461946}
   - component: {fileID: 1907674458771461941}
   - component: {fileID: 1907674458771461940}
+  - component: {fileID: 8912713755282369417}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -97,6 +98,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
+  health: 500
   laserPrefab: {fileID: 5919711606325643003, guid: f6dc33b57d52ffb4294727079869bada, type: 3}
   projectileSpeed: 10
   projectileFiringPeriod: 0.1
+--- !u!60 &8912713755282369417
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907674458771461947}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.98, y: 4.6}
+    newSize: {x: 2.98, y: 4.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.36, y: -1.88}
+      - {x: 1.39, y: -1.87}
+      - {x: 1.4399999, y: -1.8199999}
+      - {x: 1.4399999, y: -1.66}
+      - {x: 1.38, y: -1.4699999}
+      - {x: 1.14, y: -1.24}
+      - {x: 1.02, y: -1.17}
+      - {x: 0.65999997, y: -0.83}
+      - {x: 0.66999996, y: -0.81}
+      - {x: 0.56, y: -0.62}
+      - {x: 0.41, y: 0.03}
+      - {x: 0.31, y: 0.34}
+      - {x: 0.26, y: 0.57}
+      - {x: 0.22, y: 0.79999995}
+      - {x: 0.19999999, y: 1.14}
+      - {x: 0.16, y: 1.38}
+      - {x: 0.099999994, y: 1.52}
+      - {x: 0.02, y: 1.64}
+      - {x: -0.04, y: 1.7099999}
+      - {x: -0.02, y: 2}
+      - {x: -0.089999996, y: 2.05}
+      - {x: -0.14, y: 2.05}
+      - {x: -0.14999999, y: 2.04}
+      - {x: -0.17999999, y: 2}
+      - {x: -0.17999999, y: 1.6999999}
+      - {x: -0.29, y: 1.5999999}
+      - {x: -0.42, y: 1.43}
+      - {x: -0.48, y: 1.31}
+      - {x: -0.48999998, y: 0.79999995}
+      - {x: -0.51, y: 0.75}
+      - {x: -0.56, y: 0.45}
+      - {x: -0.59, y: 0.07}
+      - {x: -0.65, y: -0.19}
+      - {x: -0.66999996, y: -0.35999998}
+      - {x: -0.82, y: -0.83}
+      - {x: -0.95, y: -0.93}
+      - {x: -1.23, y: -1.17}
+      - {x: -1.39, y: -1.39}
+      - {x: -1.49, y: -1.61}
+      - {x: -1.49, y: -1.8499999}
+      - {x: -1.4699999, y: -1.88}
+      - {x: -1.4399999, y: -1.89}
+      - {x: -0.57, y: -1.89}
+      - {x: -0.57, y: -2.11}
+      - {x: -0.48999998, y: -2.1699998}
+      - {x: 0.38, y: -2.1699998}
+      - {x: 0.45, y: -2.07}
+      - {x: 0.45, y: -1.89}
+      - {x: 0.93, y: -1.89}
