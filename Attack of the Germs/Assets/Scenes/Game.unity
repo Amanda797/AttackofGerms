@@ -5017,6 +5017,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7096232479921570498, guid: e2a2821ecc9fed3449c91887b3488c89, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e1b2f60c71469984cbca75d27855de9d, type: 3}
+    - target: {fileID: -7096232479921570498, guid: e2a2821ecc9fed3449c91887b3488c89, type: 3}
+      propertyPath: shootSoundVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 332617029392360280, guid: e2a2821ecc9fed3449c91887b3488c89, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -10464,12 +10472,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 38f8fe34b1f5b8f4faf18746a4a7e27b, type: 3}
+    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c82a7987661a1ef4eb7ed495eb344dcd, type: 3}
+    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 5919711606325643003, guid: f6dc33b57d52ffb4294727079869bada, type: 3}
     - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
       propertyPath: projectileSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
+      propertyPath: deathSoundVolume
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
       propertyPath: projectileFiringPeriod
