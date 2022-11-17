@@ -1238,34 +1238,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 38f8fe34b1f5b8f4faf18746a4a7e27b, type: 3}
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: shootSound
-      value: 
-      objectReference: {fileID: 8300000, guid: c82a7987661a1ef4eb7ed495eb344dcd, type: 3}
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: laserPrefab
-      value: 
-      objectReference: {fileID: 5919711606325643003, guid: f6dc33b57d52ffb4294727079869bada, type: 3}
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: projectileSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: deathSoundVolume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907674458771461940, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: projectileFiringPeriod
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1907674458771461941, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1907674458771461946, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1314,10 +1286,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1907674458771461947, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63a063f6cf79b744f811ddf81105282c, type: 3}
 --- !u!1001 &1997643651430593136
@@ -1327,10 +1295,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1888639672}
     m_Modifications:
-    - target: {fileID: 2194362525527740083, guid: 516dcc998745ad147bdad354ad002f47, type: 3}
-      propertyPath: waveConfig
-      value: 
-      objectReference: {fileID: 11400000, guid: b8ab25feda77ec24e831d732cbb08174, type: 2}
     - target: {fileID: 7545440248793278710, guid: 516dcc998745ad147bdad354ad002f47, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1378,10 +1342,6 @@ PrefabInstance:
     - target: {fileID: 8944486555997894457, guid: 516dcc998745ad147bdad354ad002f47, type: 3}
       propertyPath: m_Name
       value: scaryvirus4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8944486555997894457, guid: 516dcc998745ad147bdad354ad002f47, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 516dcc998745ad147bdad354ad002f47, type: 3}

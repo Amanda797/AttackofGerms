@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
-    [SerializeField] float padding = 1f;
+    [SerializeField] float xPadding = 1f;
+    [SerializeField] float yPadding = 1f;
     [SerializeField] int health = 500;
     [SerializeField] AudioClip deathSound;
     [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
@@ -73,7 +74,6 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-
            firingCoroutine =  StartCoroutine(FireContinuously());
         }
         if (Input.GetButtonUp("Fire1"))
@@ -111,10 +111,10 @@ public class Player : MonoBehaviour
     private void SetUpMoveBoundaries()
     {
         Camera gameCamera = Camera.main;
-        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
-        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
+        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + xPadding;
+        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - xPadding;
+        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + yPadding;
+        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - yPadding;
     }
 
     
