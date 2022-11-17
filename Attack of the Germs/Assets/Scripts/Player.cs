@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
     [SerializeField] AudioClip shootSound;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+    private SpriteRenderer playerSprite;
 
 
     [Header("Projectile")]
@@ -33,6 +34,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerSprite = GetComponent<SpriteRenderer>();
         SetUpMoveBoundaries();
     }
 
@@ -99,6 +101,15 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            playerSprite.flipX = false;
+        }
+        else
+        {
+            playerSprite.flipX = true;
+        }
+
         var deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
         var deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 
