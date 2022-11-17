@@ -39,10 +39,11 @@ public class EnemyPathing : MonoBehaviour
             {
                 waypointIndex++;
             }
-           /* else
-            {
-                Destroy(gameObject);
-            } */
+        }
+
+        else if (waypointIndex == waypoints.Count)
+        {
+            Destroy(gameObject);
         }
     }
 }
